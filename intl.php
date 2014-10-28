@@ -10,7 +10,7 @@
 	}
 	echo'</br>';
 
-	$german_names = array('Weib','Goldmann','Göbel','Weiss','Göthe','Goethe','Götz');
+	$german_names = array('Weiß','Goldmann','Göbel','Weiss','Göthe','Goethe','Götz');
 
 	$coll =new Collator('de_DE');
 	$coll->sort($german_names);
